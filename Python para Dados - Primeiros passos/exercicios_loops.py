@@ -1,7 +1,16 @@
 # %%
 # 1) Escreva um programa que peça dois números inteiros e imprima todos os números inteiros entre eles.
 
+n1 = int(input('Digite o primeiro número: '))
+n2 = int(input('Digite o segundo número: '))
 
+while n1 != n2:
+    if n2 > n1:
+        print(n1)
+        n1 += 1
+    if n1 > n2:
+        print(n1)
+        n1 -= 1
 
 
 
