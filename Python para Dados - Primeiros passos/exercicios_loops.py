@@ -20,7 +20,19 @@ while n1 != n2:
 # 2) Escreva um programa para calcular quantos dias levará para a colônia de uma bactéria A ultrapassar ou igualar a colônia de uma bactéria B, com base nas taxas de crescimento de 3% e 1,5% respectivamente. Considere que a colônia A inicia com 4 elementos e a B com 10.
 
 
+a = 4
+b = 10
 
+prazo = 0
+
+while a < b:
+    prazo += 1
+    a *= 1 + 0.03
+    b *= 1 + 0.015
+
+
+
+print(f'Sabendo que as colônias de bactérias A e B têm taxas de crescimento de 3% e 1,5% por dia, respectivamente e que a colônia A iniciou com 4 elementos e a colônia B com 10 elementos, podemos concluir que a colônia A vai ultrapassar ou igualar a colônia B em {prazo} dias. \n Alcançado esse prazo, cada amostra terá o seguinte tamanho: \n Amostra A: {a} elementos \n Amostra B: {b} elementos')
 
 
 
@@ -28,7 +40,17 @@ while n1 != n2:
 # %%
 # 3) Para tratar uma quantidade de 15 dados de avaliações de pessoas usuárias de um serviço da empresa, precisamos verificar se as notas são válidas. Então, escreva um programa que vai receber a nota de 0 a 5 de todos os dados e verificar se é um valor válido. Caso seja inserido uma nota acima de 5 ou abaixo de 0, repita até que a pessoa usuária insira um valor válido.
 
+usuario = 1
 
+while usuario <= 5:
+    nota = int(input('Digite uma nota de 0 a 5: '))
+    
+    if (nota < 0) or (nota > 5):
+        print('Valor invalido para a nota!')
+        nota = int(input('Digite uma nota de 0 a 5: '))
+    else:
+        usuario += 1
+        print(nota)
 
 
 
