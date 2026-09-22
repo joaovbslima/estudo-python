@@ -1,4 +1,4 @@
-# 🐍 Estudos Python | Alura
+# 🐍 Estudos em Python
 
 Este repositório foi criado exclusivamente para registrar o meu progresso e organizar as resoluções dos exercícios práticos realizados durante o meu estudo de **Python com ênfase em aplicação para Dados**, através de cursos realizados na plataforma **Alura**.
 
