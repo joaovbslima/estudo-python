@@ -1,10 +1,10 @@
-# 🐍 Exercícios do curso Python para Dados - Primeiros Passos | Alura
+# 🐍 Estudos Python | Alura
 
-Este repositório foi criado exclusivamente para registrar o meu progresso e organizar as resoluções dos exercícios práticos realizados durante o curso **"Python para Dados - Primeiros passos"**, oferecido pela plataforma **Alura**.
+Este repositório foi criado exclusivamente para registrar o meu progresso e organizar as resoluções dos exercícios práticos realizados durante o meu estudo de **Python com ênfase em aplicação para Dados**, através de cursos realizados na plataforma **Alura**.
 
 ---
 
-## 📌 Sobre o Curso
+## 📌 **Curso Python para Dados: primeiros passos**
 
 O curso aborda os conceitos fundamentais de lógica de programação com Python, focando na aplicação prática para análise e manipulação de dados.
 
